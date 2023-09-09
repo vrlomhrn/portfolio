@@ -1,0 +1,47 @@
+import Virlo from "../../assets/images/vrlomhrn.png";
+
+const AboutSection = () => {
+  return (
+    <section id="about">
+      <div className="mt-[31px] mx-2 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded p-4">
+        <div className="my-2 flex justify-evenly items-center md:flex-col-reverse">
+          <div className="px-2 md:mt-2">
+            <h4 className="text-md md:text-lg font-medium">
+              Virlo Mahrian Shaffari
+            </h4>
+            <hr className="border-black" />
+            <p className="text-center font-extralight">Software Engineer</p>
+          </div>
+          <img src={Virlo} alt="Virlo Mahrian Shaffari" width={125} />
+        </div>
+      </div>
+      <div className="mt-4 mx-2">
+        <h3 className="text-[22px] font-semibold">
+          About <span className="text-[#D41D6C]">Me?</span>
+        </h3>
+        <div className="pr-1 md:pr-0">
+          <p className="my-1 md:text-[18px] text-justify">
+            I am Virlo Mahrian, a passionate Software Engineer with a love for
+            all things tech. I spend my days immersed in the world of coding,
+            turning ideas into reality one line of code at a time.
+          </p>
+          <p className="my-1 md:text-[18px] text-justify">
+            Beyond the screen, I'm an avid gamer who enjoys exploring virtual
+            realms and testing my skills against others. When I'm not gaming,
+            you can often find me engrossed in manga, manhwa, light novels, and
+            novels, exploring captivating stories and worlds that transport me
+            to different dimensions.
+          </p>
+          <p className="my-1 md:text-[18px] text-justify">
+            My personal motto is "I will become a multitalented person one day,
+            no matter what." I firmly believe in the power of dedication and
+            continuous learning to transform oneself into a well-rounded
+            individual.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default AboutSection;
