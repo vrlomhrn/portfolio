@@ -39,7 +39,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="https://linkedin.com/in/vrlomhrn" target="_blank">
+            <a href="https://www.instagram.com/vrlomhrn/" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
