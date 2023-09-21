@@ -38,6 +38,7 @@ const SkillsSection = () => {
               <Card image="https://img.icons8.com/color/48/nextjs.png" />
               <Card image="https://img.icons8.com/color/48/nuxt-jc.png" />
               <Card image="https://img.icons8.com/fluency/48/laravel.png" />
+              <Card image="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-shadow-tal-revivo.png" />
               <Card image="https://img.icons8.com/ios/50/express-js.png" />
               <Card image="https://img.icons8.com/color/48/react-native.png" />
               <Card image="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-codeigniter-is-an-open-source-software-rapid-development-web-framework-logo-shadow-tal-revivo.png" />

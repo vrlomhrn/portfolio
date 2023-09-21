@@ -9,7 +9,7 @@ export const projects = [
     id: 1,
     name: "Blog App",
     image: BlogApp,
-    url: "#portfolio",
+    url: "https://github.com/vrlomhrn/laravel-blog-app",
     target: "_self",
   },
   {
@@ -23,14 +23,14 @@ export const projects = [
     id: 3,
     name: "Kyora Discord Bot",
     image: Kyora,
-    url: "#portfolio",
+    url: "https://github.com/vrlomhrn/kyora",
     target: "_self",
   },
   {
     id: 4,
     name: "SPDN Project",
     image: SPDN,
-    url: "#portfolio",
+    url: "https://github.com/pesilatkelompok3/be-sistem-pengajuan-dokumen-negara",
     target: "_self",
   },
 ];
