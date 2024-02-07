@@ -1,5 +1,5 @@
 import Footer from "./components/footer/footer";
-import Navbar from "./components/header/navigation-bar";
+// import Navbar from "./components/header/navigation-bar";
 import AboutSection from "./components/section/about-section";
 import PortfolioSection from "./components/section/portfolio-section";
 import SkillsSection from "./components/section/skills-section";
@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <Navbar />
+      {/* <Navbar /> */}
       {/* About Section */}
       <AboutSection />
       {/* Skills Section */}

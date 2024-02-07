@@ -10,16 +10,13 @@ const PortfolioCard = ({ image, name, url, target }: CardProps) => {
   return (
     <div
       className="flex flex-col space-y-2 items-center md:max-w-[350px] p-2"
-      data-aos="flip-right"
+      data-aos="fade-up"
     >
       <img src={image} alt="nature" width="100%" />
 
       <h5 className="text-2xl text-center font-semibold capitalize">{name}</h5>
 
-      <Button
-        buttonType="button"
-        clickHandler={() => window.open(url, target)}
-      >
+      <Button buttonType="button" clickHandler={() => window.open(url, target)}>
         See Detail
       </Button>
     </div>
