@@ -16,7 +16,7 @@ export const projects = [
     id: 2,
     name: "Favorite Flower",
     image: FavoriteFlower,
-    url: "#portfolio",
+    url: "https://www.favfloristbandung.com/",
     target: "_self",
   },
   {
@@ -30,7 +30,7 @@ export const projects = [
     id: 4,
     name: "SPDN Project",
     image: SPDN,
-    url: "https://github.com/pesilatkelompok3/be-sistem-pengajuan-dokumen-negara",
+    url: "#",
     target: "_self",
   },
 ];

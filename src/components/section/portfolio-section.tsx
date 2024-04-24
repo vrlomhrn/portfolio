@@ -29,14 +29,14 @@ const PortfolioSection = () => {
         </h5>
         <div className="space-y-4 flex flex-col md:flex-row md:justify-around md:items-center md:flex-wrap">
           {projects.map((project: Projects) => {
-            const { name, image, url, target } = project;
+            const { name, image, url } = project;
 
             return (
               <PortfolioCard
                 image={image}
                 name={name.split("-").join(" ")}
                 url={url}
-                target={target}
+                target="_blank"
               />
             );
           })}

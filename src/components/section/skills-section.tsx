@@ -5,7 +5,7 @@ import DotNet from "../../assets/images/dotnet.svg";
 
 const SkillsSection = () => {
   return (
-    <section id="stack" className="mt-4 py-2 bg-[#EBF1FF]">
+    <section id="stack" className="mt-4 py-2">
       <div className="mx-2">
         <h3 className="text-[22px] font-semibold">
           Tech <span className="text-[#D41D6C]">Stack</span>

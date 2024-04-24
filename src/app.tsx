@@ -7,15 +7,17 @@ import SkillsSection from "./components/section/skills-section";
 const App = () => {
   return (
     <>
-      {/* Navigation Bar */}
-      {/* <Navbar /> */}
-      {/* About Section */}
-      <AboutSection />
-      {/* Skills Section */}
-      <SkillsSection />
-      {/* Portfolio Section */}
-      <PortfolioSection />
-      {/* Footer */}
+      <div className="m-2 p-4">
+        {/* Navigation Bar */}
+        {/* <Navbar /> */}
+        {/* About Section */}
+        <AboutSection />
+        {/* Skills Section */}
+        <SkillsSection />
+        {/* Portfolio Section */}
+        <PortfolioSection />
+        {/* Footer */}
+      </div>
       <Footer />
     </>
   );

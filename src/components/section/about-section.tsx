@@ -4,7 +4,7 @@ import Virlo from "../../assets/images/virlo_m.jpg";
 const AboutSection = () => {
   return (
     <section id="about">
-      <div className="mt-[31px] mx-2  bg-gradient-to-r from-violet-800 to-fuchsia-500 rounded p-4">
+      <div className="mt-[31px] mx-2  bg-gradient-to-r from-[#D41D6C] via-[#b34b99fc] via-50% to-[#a71d80] rounded p-4">
         <div className="my-2 flex justify-evenly items-center md:flex-col-reverse">
           <div className="px-2 md:mt-2">
             <h4 className="text-slate-200 text-md md:text-lg font-medium">
