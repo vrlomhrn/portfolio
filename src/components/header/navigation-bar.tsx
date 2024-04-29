@@ -1,18 +1,21 @@
-import Link from "../dynamic/link";
+// import Link from "../dynamic/link";
+import Resume from "../../assets/archives/resume.pdf";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-2 left-2 w-[147px] border border-slate-800 rounded-full z-50">
-      <ul className="flex px-[8px] py-[6px] justify-around">
-        <li className="font-medium hover:underline hover:text-opacity-80 hover:text-[#7305EE]">
-          <Link url="/">Profile</Link>
-        </li>
-        <li className="font-medium">|</li>
-        <li className="font-medium hover:underline hover:text-opacity-80">
-          <Link url="/">Blog</Link>
-        </li>
-      </ul>
-    </nav>
+    <a
+      href={Resume}
+      className="fixed md:hidden mt-2 p-2 bg-slate-200 text-slate-800 rounded-md hover:bg-slate-200 hover:text-slate-700 hover:border-transparent bottom-2 right-2 z-50 flex gap-2 font-semibold"
+      download="vrlomhrn_resume.pdf"
+    >
+      <img
+        width="24"
+        height="24"
+        src="https://img.icons8.com/material-rounded/24/download--v1.png"
+        alt="download--v1"
+      />
+      Resume
+    </a>
   );
 };
 

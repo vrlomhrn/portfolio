@@ -2,8 +2,8 @@ const Footer = () => {
   return (
     <footer className="mt-4 bg-slate-900 py-4 text-slate-100">
       <div className="flex flex-col space-y-1 items-center">
-        <p className="text-md">Created by Virlo Mahrian</p>
-        <h5 className="text-[12px] font-medium">&copy;2023</h5>
+        <p className="text-md">Virlo Mahrian</p>
+        <h5 className="text-[12px] font-medium">&copy; 2023</h5>
 
         <ul className="flex flex-wrap justify-center items-center">
           <li>

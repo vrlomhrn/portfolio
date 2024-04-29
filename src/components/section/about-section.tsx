@@ -1,11 +1,12 @@
-// import Virlo from "../../assets/images/vrlomhrn.png";
 import Virlo from "../../assets/images/virlo_m.jpg";
+import Resume from "../../assets/archives/resume.pdf";
 
 const AboutSection = () => {
   return (
     <section id="about">
       <div className="mt-[31px] mx-2  bg-gradient-to-r from-[#D41D6C] via-[#b34b99fc] via-50% to-[#a71d80] rounded p-4">
-        <div className="my-2 flex justify-evenly items-center md:flex-col-reverse">
+        <div className="my-2 flex justify-evenly items-center md:flex-col">
+          <img src={Virlo} alt="Virlo Mahrian Shaffari" width={125} />
           <div className="px-2 md:mt-2">
             <h4 className="text-slate-200 text-md md:text-lg font-medium">
               Virlo Mahrian Shaffari
@@ -15,7 +16,19 @@ const AboutSection = () => {
               Software Engineer
             </p>
           </div>
-          <img src={Virlo} alt="Virlo Mahrian Shaffari" width={125} />
+          <a
+            href={Resume}
+            className="hidden md:flex mt-2 p-2 border border-slate-800 rounded-md hover:bg-slate-200 hover:text-slate-600 hover:border-transparent items-center gap-1"
+            download="vrlomhrn_resume.pdf"
+          >
+            <img
+              width="24"
+              height="24"
+              src="https://img.icons8.com/windows/32/pdf-2.png"
+              alt="pdf-2"
+            />
+            My Resume
+          </a>
         </div>
       </div>
       <div className="mt-4 mx-2">
