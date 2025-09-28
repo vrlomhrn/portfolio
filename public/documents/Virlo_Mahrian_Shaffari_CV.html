@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virlo Mahrian Shaffari - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .name {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #1e40af;
+            margin-bottom: 10px;
+        }
+
+        .title {
+            font-size: 1.3em;
+            color: #6b7280;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            font-size: 0.9em;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #1e40af;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .summary {
+            text-align: justify;
+            line-height: 1.7;
+            color: #4b5563;
+        }
+
+        .experience-item, .project-item {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+
+        .experience-item:last-child, .project-item:last-child {
+            border-bottom: none;
+        }
+
+        .job-title, .project-title {
+            font-weight: bold;
+            color: #1f2937;
+            font-size: 1.1em;
+        }
+
+        .company, .project-tech {
+            color: #2563eb;
+            font-weight: 600;
+        }
+
+        .date {
+            color: #6b7280;
+            font-style: italic;
+            float: right;
+        }
+
+        .description {
+            margin-top: 8px;
+            color: #4b5563;
+            line-height: 1.6;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-category {
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #2563eb;
+        }
+
+        .skill-category h4 {
+            color: #1e40af;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .skill-item {
+            background: #e0e7ff;
+            color: #1e40af;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+
+        .technologies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 8px;
+        }
+
+        .tech-item {
+            background: #dbeafe;
+            color: #1d4ed8;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+        }
+
+        @media print {
+            body {
+                padding: 20px;
+                font-size: 12px;
+            }
+
+            .name {
+                font-size: 2em;
+            }
+
+            .section {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">Virlo Mahrian Shaffari</div>
+        <div class="title">Software Engineer</div>
+        <div class="contact-info">
+            <div class="contact-item">
+                <span>📧</span> vmahrian@gmail.com
+            </div>
+            <div class="contact-item">
+                <span>📱</span> +62 87748880804
+            </div>
+            <div class="contact-item">
+                <span>📍</span> West Java, Indonesia
+            </div>
+            <div class="contact-item">
+                <span>🔗</span> github.com/vrlomhrn
+            </div>
+            <div class="contact-item">
+                <span>💼</span> linkedin.com/in/vrlomhrn
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Professional Summary</div>
+        <div class="summary">
+            Dynamic software developer with 4 years of programming experience and 1 year of production machine operation expertise. Proficient in full-stack web development, cloud technologies, and data analysis. Demonstrated excellence through comprehensive certifications from AWS, Dicoding Indonesia, and freeCodeCamp. Recognized as Best Member of Alkademi Bootcamp 2023. Multilingual professional fluent in English, Indonesian, Chinese, and Japanese, with a strong foundation in both technical development and operational efficiency.
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4>Frontend Development</h4>
+                <div class="skill-list">
+                    <span class="skill-item">React</span>
+                    <span class="skill-item">HTML/CSS</span>
+                    <span class="skill-item">JavaScript</span>
+                    <span class="skill-item">Responsive Design</span>
+                    <span class="skill-item">Tailwind CSS</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h4>Backend Development</h4>
+                <div class="skill-list">
+                    <span class="skill-item">Node.js</span>
+                    <span class="skill-item">Laravel</span>
+                    <span class="skill-item">PHP</span>
+                    <span class="skill-item">RESTful APIs</span>
+                    <span class="skill-item">Database Design</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h4>Cloud & Data Science</h4>
+                <div class="skill-list">
+                    <span class="skill-item">AWS Cloud</span>
+                    <span class="skill-item">Data Analysis</span>
+                    <span class="skill-item">Python</span>
+                    <span class="skill-item">Statistical Analysis</span>
+                    <span class="skill-item">Machine Learning</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h4>Tools & Operations</h4>
+                <div class="skill-list">
+                    <span class="skill-item">Git</span>
+                    <span class="skill-item">Industrial Machinery</span>
+                    <span class="skill-item">Quality Control</span>
+                    <span class="skill-item">Remote Collaboration</span>
+                    <span class="skill-item">Agile Development</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Professional Experience</div>
+
+        <div class="experience-item">
+            <div class="job-title">Machine Operator</div>
+            <div class="company">PT. Indonesia Libolon Fiber System</div>
+            <div class="date">September 2024 - Present</div>
+            <div class="description">
+                Operating and maintaining industrial fiber production machinery with focus on quality control and operational efficiency. Monitoring production processes, troubleshooting equipment issues, and ensuring adherence to safety protocols. Applying technical knowledge to optimize machine performance and minimize downtime while maintaining high-quality output standards.
+            </div>
+            <div class="technologies">
+                <span class="tech-item">Machine Operation</span>
+                <span class="tech-item">Quality Control</span>
+                <span class="tech-item">Production Management</span>
+                <span class="tech-item">Safety Protocols</span>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Web Developer</div>
+            <div class="company">Favorite Flower (Freelance Remote)</div>
+            <div class="date">August 2023 - September 2023</div>
+            <div class="description">
+                Developed responsive web applications for floral business client, creating user-friendly interfaces and implementing e-commerce functionality. Collaborated remotely to deliver custom solutions that enhanced online presence and customer engagement. Utilized modern web technologies to build scalable and maintainable code architecture.
+            </div>
+            <div class="technologies">
+                <span class="tech-item">Web Development</span>
+                <span class="tech-item">E-commerce</span>
+                <span class="tech-item">Remote Collaboration</span>
+                <span class="tech-item">Client Management</span>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Full Stack Developer (Internship)</div>
+            <div class="company">Alkademi</div>
+            <div class="date">June 2023 - August 2023</div>
+            <div class="description">
+                Completed intensive full-stack development internship, working on both frontend and backend technologies. Developed comprehensive web applications using modern frameworks and databases. Participated in agile development processes and collaborative project management. Recognized as Best Member of Alkademi Bootcamp 2023 for outstanding performance and dedication.
+            </div>
+            <div class="technologies">
+                <span class="tech-item">Full Stack Development</span>
+                <span class="tech-item">Frontend & Backend</span>
+                <span class="tech-item">Agile Development</span>
+                <span class="tech-item">Team Collaboration</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Featured Projects</div>
+
+        <div class="project-item">
+            <div class="project-title">E-commerce Platform</div>
+            <div class="project-tech">Full-Stack Web Application</div>
+            <div class="date">January 2024</div>
+            <div class="description">
+                A comprehensive e-commerce solution featuring user authentication, payment processing, and admin dashboard. Implemented secure payment integration with Stripe and built a responsive user interface with React.
+            </div>
+            <div class="technologies">
+                <span class="tech-item">React</span>
+                <span class="tech-item">Node.js</span>
+                <span class="tech-item">PostgreSQL</span>
+                <span class="tech-item">Stripe</span>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <div class="project-title">Task Management App</div>
+            <div class="project-tech">Collaborative Web Application</div>
+            <div class="date">December 2023</div>
+            <div class="description">
+                A collaborative task management application with real-time updates and team collaboration features. Utilized Firebase for real-time data synchronization and implemented Material-UI for modern design.
+            </div>
+            <div class="technologies">
+                <span class="tech-item">React</span>
+                <span class="tech-item">Firebase</span>
+                <span class="tech-item">Material-UI</span>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <div class="project-title">Weather Dashboard</div>
+            <div class="project-tech">Data Visualization Application</div>
+            <div class="date">November 2023</div>
+            <div class="description">
+                A beautiful weather dashboard with location-based forecasts and interactive charts. Integrated OpenWeather API for real-time weather data and created dynamic visualizations using Chart.js.
+            </div>
+            <div class="technologies">
+                <span class="tech-item">Vue.js</span>
+                <span class="tech-item">Chart.js</span>
+                <span class="tech-item">OpenWeather API</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="experience-item">
+            <div class="job-title">Bachelor's Degree in Data Science</div>
+            <div class="company">Universitas Terbuka</div>
+            <div class="date">August 2025 - Expected Graduation 2029</div>
+            <div class="description">
+                Currently pursuing Bachelor's degree in Data Science with focus on statistical analysis, machine learning, and data visualization. Gaining expertise in data processing, algorithm development, and analytical thinking to support data-driven decision making.
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Certifications & Training</div>
+
+        <div class="experience-item">
+            <div class="job-title">AWS Cloud Practitioner Essentials</div>
+            <div class="company">AWS & Dicoding Indonesia</div>
+            <div class="date">March 2023 - March 2026</div>
+            <div class="description">
+                Comprehensive cloud computing certification covering AWS services, architecture, and best practices. Credential ID: 81P28RW8JPOY
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Responsive Web Design</div>
+            <div class="company">freeCodeCamp</div>
+            <div class="date">May 2022</div>
+            <div class="description">
+                Completed comprehensive web design course covering HTML, CSS, responsive design principles, and modern web development practices.
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Creating Web Application with React</div>
+            <div class="company">Dicoding Indonesia</div>
+            <div class="date">September 2022</div>
+            <div class="description">
+                Advanced React development course covering component architecture, state management, and modern React patterns.
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Frontend & Backend Web Development</div>
+            <div class="company">Dicoding Indonesia</div>
+            <div class="date">August 2022 - March 2023</div>
+            <div class="description">
+                Comprehensive full-stack development training covering both frontend (August 2022) and backend (March 2023) technologies and best practices.
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Dojo Certificate PESILAT 2023 & Best Member Award</div>
+            <div class="company">Alkademi</div>
+            <div class="date">September 2023</div>
+            <div class="description">
+                Completed intensive bootcamp training and recognized as Best Member of Alkademi Bootcamp 2023 for exceptional performance and dedication.
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Notable Projects</div>
+
+        <div class="project-item">
+            <div class="project-title">Spectrophotometer App for DYEING</div>
+            <div class="project-tech">Specialized Industrial Application</div>
+            <div class="description">
+                Developed custom application for textile dyeing process optimization using spectrophotometer data analysis.
+            </div>
+        </div>
+
+        <div class="project-item">
+            <div class="project-title">Weather App & Kyora Bot Discord</div>
+            <div class="project-tech">Web Application & Discord Bot</div>
+            <div class="description">
+                Created responsive weather application and Discord bot for community management and automated services.
+            </div>
+        </div>
+
+        <div class="project-item">
+            <div class="project-title">E-Commerce API & Laravel Blog App</div>
+            <div class="project-tech">Backend Development & Full-Stack Application</div>
+            <div class="description">
+                Built comprehensive e-commerce API and blog application using Laravel framework with full CRUD functionality.
+            </div>
+        </div>
+
+        <div class="project-item">
+            <div class="project-title">Ngewibu Project & Bookshelf-API</div>
+            <div class="project-tech">Web Application & RESTful API</div>
+            <div class="description">
+                Developed anime-focused web application and bookshelf management API with modern web technologies.
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Key Achievements</div>
+        <div class="description">
+            <ul style="margin-left: 20px; line-height: 1.8;">
+                <li>🏆 Best Member of Alkademi Bootcamp 2023 - Outstanding performance and dedication</li>
+                <li>☁️ AWS Cloud Practitioner certified with 3-year validity (2023-2026)</li>
+                <li>🚀 4 years of programming experience across multiple technologies and frameworks</li>
+                <li>🏭 1 year of industrial machine operation experience with quality control focus</li>
+                <li>📚 Multiple professional certifications from recognized platforms (AWS, Dicoding, freeCodeCamp)</li>
+                <li>🌐 Developed diverse portfolio of applications including industrial, e-commerce, and entertainment projects</li>
+                <li>🗣️ Multilingual proficiency: English, Indonesian, Chinese, Japanese</li>
+                <li>💼 Successfully completed freelance projects with remote collaboration</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Languages</div>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4>Spoken Languages</h4>
+                <div class="skill-list">
+                    <span class="skill-item">Indonesian (Native)</span>
+                    <span class="skill-item">English (Fluent)</span>
+                    <span class="skill-item">Chinese (Conversational)</span>
+                    <span class="skill-item">Japanese (Conversational)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
