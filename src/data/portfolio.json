@@ -270,21 +270,42 @@
   "experience": [
     {
       "id": 1,
-      "company": "Tech Company Inc.",
-      "position": "Senior Frontend Developer",
-      "startDate": "2022-06-01",
-      "endDate": null,
-      "description": "Lead frontend development for multiple client projects, mentoring junior developers and implementing best practices.",
-      "technologies": ["React", "TypeScript", "Next.js"]
+      "company": "PT. Indonesia Libolon Fiber System",
+      "position": "Machine Operator",
+      "startDate": "2024-09-17",
+      "endDate": "2025-12-17",
+      "description": "Operating and maintaining industrial fiber production machinery with focus on quality control and operational efficiency. Monitoring production processes, troubleshooting equipment issues, and ensuring adherence to safety protocols. Applying technical knowledge to optimize machine performance and minimize downtime while maintaining high-quality output standards.",
+      "technologies": [
+        "Machine Operator",
+        "Production Management",
+        "Quality Control"
+      ]
     },
     {
       "id": 2,
-      "company": "Startup Solutions",
-      "position": "Full Stack Developer",
-      "startDate": "2020-08-01",
-      "endDate": "2022-05-31",
-      "description": "Developed and maintained web applications from concept to deployment, working closely with design and product teams.",
-      "technologies": ["React", "Node.js", "MongoDB"]
+      "company": "Favorite Flower",
+      "position": "Web Developer",
+      "startDate": "2023-08-22",
+      "endDate": "2023-09-22",
+      "description": "Developed responsive web applications for floral business client, creating user-friendly interfaces and implementing e-commerce functionality. Collaborated remotely to deliver custom solutions that enhanced online presence and customer engagement. Utilized modern web technologies to build scalable and maintainable code architecture.",
+      "technologies": ["Web Development", "Node.js", "MySQL"]
+    },
+    {
+      "id": 3,
+      "company": "Alkademi",
+      "position": "Full Stack Developer (Internship)",
+      "startDate": "2023-06-22",
+      "endDate": "2023-09-22",
+      "description": "Completed intensive full-stack development internship, working on both frontend and backend technologies. Developed comprehensive web applications using modern frameworks and databases. Participated in agile development processes and collaborative project management. Recognized as Best Member of Alkademi Bootcamp 2023 for outstanding performance and dedication.",
+      "technologies": [
+        "React",
+        "Node.js",
+        "MySQL",
+        "RESTful API",
+        "Tailwind CSS",
+        "Express",
+        "JavaScript"
+      ]
     }
   ],
   "lastUpdated": "2024-09-28"
